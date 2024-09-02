@@ -36,7 +36,7 @@
         {
             if (current == null) return;
 
-            if (head == tail) // Only one node
+            if (head == tail) 
             {
                 head = tail = current = null;
             }
